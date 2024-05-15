@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class BaseResponse:
     code: int = 0
@@ -17,3 +18,4 @@ class BaseResponse:
         self.code = -1
         self.message = message
         self.data = {}
+
