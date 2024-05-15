@@ -41,3 +41,10 @@ ${PROJECT_HOME}/main.py
 ```shell
 ${PROJECT_HOME}/bin/startup.sh
 ```
+
+## 文档地址
+
+- 本地IDE
+  ```shell
+  GET http://localhost:16666/docs/
+  ```
