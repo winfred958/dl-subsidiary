@@ -18,4 +18,4 @@ if __name__ == '__main__':
 
     os.environ["MODELSCOPE_CACHE"] = config.local_cache_dif
 
-    uvicorn.run(app, host='0.0.0.0', port=6666)
+    uvicorn.run(app, host='0.0.0.0', port=config.http_port)
