@@ -1,7 +1,10 @@
+from dataclasses import dataclass
+
+@dataclass
 class BaseResponse:
     code: int = 0
     message: str = ''
-    data: any = {}
+    data: any = None
 
     def __init__(self):
         self.code = 0

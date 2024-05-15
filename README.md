@@ -45,6 +45,6 @@ ${PROJECT_HOME}/bin/startup.sh
 ## 文档地址
 
 - 本地IDE
-  ```shell
-  GET http://localhost:16666/docs/
+  ```text
+  http://localhost:16666/docs/
   ```
