@@ -47,7 +47,7 @@ class CV2NLPService:
         list.append(CV2NLPEntity(key="handWritten", value=self.arr2str(handWrittenResult),
                                  description="读光-文字识别-行识别模型-中英-手写文本领域"))
         list.append(
-            CV2NLPEntity(key="cnn", value=self.arr2str(crnnResult), description="读光-文字识别-CRNN模型-中英-通用领域"))
+            CV2NLPEntity(key="crnn", value=self.arr2str(crnnResult), description="读光-文字识别-CRNN模型-中英-通用领域"))
         list.append(CV2NLPEntity(key="document", value=self.arr2str(documentResult),
                                  description="读光-文字识别-行识别模型-中英-文档印刷体文本领域"))
 
