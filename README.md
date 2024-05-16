@@ -1,5 +1,11 @@
 # dl-subsidiary
 
+```text
+深度学习应用
+图片文字提取
+文生图
+```
+
 ## 配置文件
 
 ```shell
@@ -48,6 +54,6 @@ ${PROJECT_HOME}/bin/startup.sh
   ```text
   http://localhost:16666/docs/
   ```
-  
+
 - 服务器运行
-  - ${PROJECT_HOME}/bin/[startup.sh](bin%2Fstartup.sh)
+    - ${PROJECT_HOME}/bin/[startup.sh](bin%2Fstartup.sh)
