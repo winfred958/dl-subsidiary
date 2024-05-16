@@ -8,6 +8,7 @@ APP_HOME=$(
 
 export PYTHONPATH=${APP_HOME}:${PYTHONPATH}
 
-FAST_MAIN_PY=${APP_HOME}/main.py
+export CUDA_VISIBLE_DEVICES=0
+export MODELSCOPE_CACHE=/data/modelscope/cache
 
-python ${FAST_MAIN_PY}
+uvicorn main:app --host 0.0.0.0 --port 16666 --workers 1

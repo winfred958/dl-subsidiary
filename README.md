@@ -48,3 +48,6 @@ ${PROJECT_HOME}/bin/startup.sh
   ```text
   http://localhost:16666/docs/
   ```
+  
+- 服务器运行
+  - ${PROJECT_HOME}/bin/[startup.sh](bin%2Fstartup.sh)
