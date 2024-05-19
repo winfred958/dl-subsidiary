@@ -1,0 +1,8 @@
+protobuf==4.25.3
+transformers==4.40.2
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorflow==2.16.1
+tensorflow-intel==2.16.1
+modelscope==1.14.0
+fastapi==0.111.0

@@ -23,11 +23,7 @@ python 3.11 +
 ```
 
 ```shell
-pip install fastapi
- 
-pip install tensorflow
- 
-pip install modelscope
+pip install -r requirements.txt
 ```
 
 2. 可能需要的依赖
