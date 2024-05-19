@@ -23,13 +23,13 @@ python 3.11 +
 ```
 
 ```shell
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
 2. 可能需要的依赖
 
 ```shell
-pip3 install torch torchvision torchaudio
+pip3 install torch torchvision torchaudio -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
 ## IDE 运行
